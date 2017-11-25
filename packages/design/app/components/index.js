@@ -1,7 +1,2 @@
-var Button = require('./Button');
-var NormalText = require('./NormalText');
-
-module.exports = {
-  Button: Button,
-  NormalText: NormalText,
-};
+export { default as Button } from './Button';
+export { default as NormalText } from './NormalText';

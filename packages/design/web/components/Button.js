@@ -9,10 +9,13 @@ const Button = styled.div`
   border: white 1px solid;
   border-radius: 8px;
   text-align: center;
+  cursor: pointer;
 `;
 
 export default (props) => (
-  <Button>
+  <Button
+    onClick={props.onClick}
+  >
     {props.children}
   </Button>
 );
