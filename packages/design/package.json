@@ -1,0 +1,25 @@
+{
+  "name": "@countup/design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-native": "^0.50.4",
+    "styled-components": "^2.2.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.16",
+    "@storybook/addon-links": "^3.2.16",
+    "@storybook/react": "^3.2.16",
+    "babel-preset-react-native": "4.0.0"    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC"
+}
