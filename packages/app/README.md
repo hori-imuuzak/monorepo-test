@@ -10,7 +10,5 @@ npm i
 ## run
 
 ```
-npm run start
+react-native run-ios (react-native run-android)
 ```
-
-[http://localhost:3000]()
