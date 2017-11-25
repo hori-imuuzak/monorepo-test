@@ -9,7 +9,8 @@
   "dependencies": {
     "react": "16.0.0",
     "react-native": "0.50.4",
-    "styled-components": "^2.2.3"
+    "styled-components": "^2.2.3",
+    "@countup/design": "*"
   },
   "devDependencies": {
     "babel-jest": "21.2.0",

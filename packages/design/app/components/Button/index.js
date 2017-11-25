@@ -1,8 +1,9 @@
 import React from 'react';
+import { Text } from 'react-native';
 import styled from 'styled-components/native';
 import PropTypes from 'prop-types';
 
-const ButtonWrapper = styled.TouchableHighlight`
+const TouchableHighlight = styled.TouchableHighlight`
   backgroundColor: green;
   padding: 16px;
   width: 120px;
@@ -12,7 +13,7 @@ const ButtonWrapper = styled.TouchableHighlight`
 
 export default function Button(props) {
   return (
-    <ButtonWrapper onPress={props.onPress}>{props.children}</ButtonWrapper>
+    <TouchableHighlight onPress={props.onPress}><Text>{props.children}</Text></TouchableHighlight>
   );
 }
 

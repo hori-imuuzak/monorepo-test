@@ -1,7 +1,2 @@
-var AppComponents = require('./app/components');
-var WebComponents = require('./web/components');
-
-module.exports = {
-  AppComponents: AppComponents,
-  WebComponents: WebComponents,
-};
+export { default as AppComponents } from './app/components';
+export { default as WebComponents } from './web/components';
